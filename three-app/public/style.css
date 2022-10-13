@@ -1,0 +1,60 @@
+body{
+	background-image: url(images/a.jpg);
+	background-color: aqua;
+}
+
+ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: ghostwhite;
+		overflow: hidden;
+		position: fixed;
+		width: 100%;
+	}
+
+	li {
+		float: left;
+		margin: 10px;
+		padding: 14px;
+	}
+
+		li{
+			text-decoration: none;
+		}
+		li a:hover:not(.active){
+			background-color: steelblue;
+			text-decoration: none;
+		}
+		.active{
+			background-color: black;
+			color: white;
+		}
+		.www {
+			height: 100px;
+			width: 200px;
+			background-color: violet;
+			margin-top: 10px;
+			
+		}
+		.one ,.two{
+			background-color: yellow;
+			height: 100px;
+			width: 100px;
+			color: turquoise;
+		}
+		.www{
+			direction: flex;
+			position: relative;
+			top: 50vh;
+		}
+
+        .hello{
+        	background-color: yellowgreen;
+        	width: 20vh;
+        }
+
+        .hi{
+        	background-color: yellow;
+        	 	width: 20vh;
+        }
